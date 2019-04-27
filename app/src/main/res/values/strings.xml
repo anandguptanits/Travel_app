@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">FInal</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Quick Book</string>
+    <string name="title_myaccount">My Account</string>
+    <string name="title_talk">Talk to us</string>
+    <string name="title_more">More</string>
+    <string name="feedback">Feedback</string>
+    <string name="Submit">Submit</string>
+    <string name="Anand">"Anand Gupta\n""Founder"</string>
+    <string name="Amrit">"Amrit Raj\n""Co-founder"</string>
+    <string name="Vivek">"Vivek Verma\n" "Technical Member"</string>
+    <!--Discription about us-->
+    <string name="about_us">Something innovative is building here. Just wait and watch!</string>
+    <!--More item list view items-->
+    <string-array name="More_Items">
+        <item>Our Team</item>
+        <item>Help and Support</item>
+        <item>Refer and Earn</item>
+        <item>Share the app</item>
+        <item>Rate us</item>
+        <item>About us</item>
+        <item>Careers with us</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="spinnerItems1">
+        <item>1:00</item>
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+        <item>5:00</item>
+        <item>6:00</item>
+        <item>7:00</item>
+        <item>8:00</item>
+        <item>9:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+    </string-array>
+
+    <string-array name="spinnerItems2">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <!--facebook log in-->
+    <string name="facebook_app_id">2260574470619866</string>
+    <string name="fb_login_protocol_scheme">fb2260574470619866</string>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

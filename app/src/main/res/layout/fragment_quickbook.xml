@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:paddingTop="40dp">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="cursive"
+    android:text="Welcome to Quick Booking\n
+        This feature will help you explore even if you\n
+        have 4 hours at Hand!"
+    android:textAlignment="center"
+    android:textSize="20dp"
+    android:textStyle="bold" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:fontFamily="cursive"
+    android:padding="10dp"
+    android:text="Enter your location.."
+    android:textAlignment="center"
+    android:textSize="20dp"
+    android:textStyle="bold" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:fontFamily="cursive"
+    android:hint="Enter your current Location Here"
+    android:padding="10dp"
+    android:textAlignment="center"
+    android:textSize="20dp"
+    android:textStyle="bold" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:fontFamily="cursive"
+    android:padding="10dp"
+    android:text="Select the time that you have."
+    android:textAlignment="center"
+    android:textSize="20dp"
+    android:textStyle="bold" />
+<SeekBar
+    android:max="10"
+    android:min="4"
+    android:layout_marginTop="10dp"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:progress="6"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:text="Get Locations!"
+    />
+</LinearLayout>
